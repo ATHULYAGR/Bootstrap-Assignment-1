@@ -1,0 +1,29 @@
+/*Author: Athulya Gr
+Date :15/01/2022*/
+
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+.vh-60{
+height: 60vh;
+}
+
+.vh-40{
+	height: 40vh;
+}
+.font-para{
+	font-size: 24px;
+}
+.para2{
+	font-size: 20px;
+}
+
+@media only screen and(max-width: 576px){
+	.vh-60{
+		height: auto;
+	}
+}
